@@ -29,7 +29,7 @@ export default function Login() {
   };
 
   return (
-    <main>
+    <main className='main'>
     <div className="login-container">
       <form onSubmit={handleSubmit} className="login-form">
         <h2>Login</h2>
