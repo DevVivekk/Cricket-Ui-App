@@ -1,0 +1,18 @@
+*{
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 54.5%;
+  overflow-x: hidden;
+}
+@media screen and (max-width:598px) {
+  html{
+    font-size: 45%;
+  }
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}

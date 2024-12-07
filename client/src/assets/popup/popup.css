@@ -1,0 +1,150 @@
+/* .section {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  } */
+  
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-container {
+    background-color: #fff;
+    padding: 2.4rem;
+    border-radius: 0.8rem;
+    width: 100%;
+    max-width: 40rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transform: scale(1);
+    animation: popup-animation 0.3s ease-out;
+  }
+  
+  @keyframes popup-animation {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+.section>  h2 {
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+    text-align: center;
+  }
+  
+  .join-room-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    margin-bottom: 1.6rem;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 1.6rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.6rem;
+    border: 1px solid #ccc;
+    border-radius: 0.4rem;
+  }
+  
+  .input-group input:focus {
+    border-color: #0070f3;
+    outline: none;
+  }
+  
+  .role-selection {
+    margin-bottom: 1.6rem;
+  }
+  
+  .role-selection label {
+    font-size: 1.6rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .radio-group label {
+    margin-right: 1.6rem;
+  }
+  
+  .radio-group input {
+    margin-right: 0.4rem;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .submit-btn, .cancel-btn {
+    padding: 1.2rem;
+    font-size: 1.6rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    width: 48%;
+  }
+  
+  .submit-btn {
+    background-color: #0070f3;
+    color: white;
+    border: none;
+  }
+  
+  .submit-btn:hover {
+    background-color: #005bb5;
+  }
+  
+  .cancel-btn {
+    background-color: #ccc;
+    color: white;
+    border: none;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #999;
+  }
+  
+  @media (max-width: 600px) {
+    html {
+      font-size: 40%;
+    }
+  
+    .popup-container {
+      padding: 2rem;
+    }
+  
+    .section>h2 {
+      font-size: 2rem;
+    }
+  
+    .input-group label, .role-selection label {
+      font-size: 1.4rem;
+    }
+  
+    .input-group input {
+      font-size: 1.4rem;
+    }
+  
+    .submit-btn, .cancel-btn {
+      font-size: 1.4rem;
+    }
+  }

@@ -1,0 +1,128 @@
+@media screen and (max-width:1190px) {
+    .run{
+        width: 100vw !important;
+        justify-content: space-around;
+        align-items: center !important;
+        flex-wrap: wrap;
+        min-width: 60rem !important;
+    }
+  }
+.run{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+}
+.run-div-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: -0.5rem;
+    gap: 4px;
+}
+.div-1-ver{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    section{
+    color:white;
+        width: 24rem;
+
+        height: 7.6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.7rem;
+        font-weight: 700;
+        border-radius: 3px;
+    }
+}
+.div-hor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 61rem;
+    gap: 4px;
+    section{
+    color:white;
+        width: 19.89rem;
+
+        height: 11.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.7rem;
+        font-weight: 700;
+        border-radius: 3px;
+    }
+}
+.div-2-hor,.div-3-hor,.div-4-hor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4px;
+    section{
+    color:white;
+        width: 20rem;
+
+        height: 11.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.7rem;
+        font-weight: 700;
+        border-radius: 3px;
+    }
+}
+.div-3-hor{
+    padding: 0.2rem 0rem;
+    margin-left: -1rem !important;
+    section{
+    color:white;
+    width: 16.65rem !important;
+    }
+}
+.div-4-hor{
+    padding: 0.2rem 0rem;
+    margin-left: -1rem !important;
+    section{
+    color:white;
+    width: 21rem !important;
+    }
+}
+/* Colors */
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: orange;
+}
+.navy{
+    background-color: navy;
+}
+.blue{
+    background-color: blue;
+}
+.lime{
+    background-color: lime;
+}
+.pink{
+    background-color: pink;
+}
+.purple{
+    background-color: blueviolet;
+}
+.grey{
+    background-color: grey;
+}
+.aqua{
+    background-color: aqua;
+}
+.darkgreen{
+    background-color: darkgreen;
+}

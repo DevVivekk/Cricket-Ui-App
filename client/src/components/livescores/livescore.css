@@ -1,0 +1,71 @@
+.livescore-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 2.8rem;
+    color: #2c3e50;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+    letter-spacing: 0.05em;
+  }
+  
+  /* Batting Section */
+  .batters {
+    background-color: #ecf0f1;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+  }
+  
+  .batters h2 {
+    font-size: 2.2rem;
+    color: #3498db;
+  }
+  
+  .batters span {
+    font-size: 1.8rem;
+    color: #2c3e50;
+  }
+  
+  /* Bowling Section */
+  .bowling {
+    background-color: #f9e3e3;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+  }
+  
+  .bowling h2 {
+    font-size: 2.2rem;
+    color: #e74c3c;
+  }
+  
+  .bowling span {
+    font-size: 1.8rem;
+    color: #2c3e50;
+  }
+  
+  @media (max-width: 768px) {
+    .livescore-container {
+      padding: 1rem;
+    }
+  
+    .title {
+      font-size: 2.4rem;
+    }
+  
+    .batters h2, .bowling h2 {
+      font-size: 2rem;
+    }
+  
+    .batters span, .bowling span {
+      font-size: 1.6rem;
+    }
+  }

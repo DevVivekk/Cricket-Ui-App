@@ -1,0 +1,90 @@
+@media screen and (max-width:1190px) {
+    .navvbar{
+        width: 100vw !important;
+        justify-content: space-around;
+        align-items: center !important;
+        flex-wrap: wrap;
+        min-width: 60rem !important;
+    }
+    .bat-info>div>select{
+        width: 25rem !important;
+    }
+    .sidebar{
+        display: block !important;
+    }
+  }
+.navvbar{
+    width: 60vw;
+    height: 10rem;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-items{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.sidebar{
+    display: none;
+    margin: 2rem;
+    img{
+    width: 6rem;
+    }
+}
+.nav-headings{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0.5rem;
+    white-space: nowrap; /* Prevent line breaks */
+}
+.bat-images{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: -0.8rem;
+    .right-arrow{
+        top: 1.7rem;
+        position: absolute;
+        width: 1.3rem;
+    }
+    .left-arrow{
+        top: 1rem;
+        position: absolute;
+        width: 1.3rem;
+    }
+}
+.bat-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bat-info>div>select{
+    width: 19vw;
+    padding: 10px 30px 10px 10px;  /* Padding for select text */
+    font-size: 16px;                /* Font size */
+    appearance: none;               /* Remove default arrow */
+    -webkit-appearance: none;       /* Remove default arrow for Safari */
+    -moz-appearance: none;          /* Remove default arrow for Firefox */
+    background-color: white;        /* Background color */
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 5px;             /* Rounded corners */
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAQklEQVR4nGNgGAWjYBQMCChnYGD4Tyaup6Ul9bT0ST3J4USCJfXkGk6MJfWUGo7PEqoZjs0SqhsOAw1QPApGwXACABD8P4Or4XXCAAAAAElFTkSuQmCC'); /* Base64-encoded down arrow icon */
+    background-repeat: no-repeat;
+    background-position: right 10px center;  /* Position the icon */
+    background-size: 12px;  /* Adjust icon size */
+    option{
+        padding: 10px;  /* Padding for the option text */
+        font-size: 16px; /* Font size */
+    }
+    &:focus {
+        border-color: #4A90E2; /* Blue border on focus */
+        outline: none;
+    }
+}
