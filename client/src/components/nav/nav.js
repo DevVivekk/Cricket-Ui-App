@@ -11,7 +11,7 @@ const Navv = () => {
     <div>
     <h2 className='nav-headings'>BatsMan (Striker)</h2>
     <select>
-        <option value={'Virat Bhai'}>Virat Bhai</option>
+        <option value={'Virat Bhai'}>Tanzim Hasan Sakib</option>
         <option value={'Dhoni Bhai'}>Dhoni Bhai</option>
         <option value={'Tendulkar Bhai'}>Tendulkar Bhai</option>
     </select>
@@ -27,7 +27,7 @@ const Navv = () => {
     <div>
     <h2 className='nav-headings'>BatsMan (Non-Striker)</h2>
     <select>
-   <option value={'Virat Bhai'}>Virat Bhai</option>
+   <option value={'Virat Bhai'}>Towhid Hridoy</option>
         <option value={'Dhoni Bhai'}>Dhoni Bhai</option>
         <option value={'Tendulkar Bhai'}>Tendulkar Bhai</option>
     </select>
@@ -37,7 +37,7 @@ const Navv = () => {
     <div>
     <h2 className='nav-headings'>Bowler</h2>
     <select>
-   <option value={'Virat Bhai'}>Virat Bhai</option>
+   <option value={'Virat Bhai'}>Nitish Kumar Reddy</option>
         <option value={'Dhoni Bhai'}>Dhoni Bhai</option>
         <option value={'Tendulkar Bhai'}>Tendulkar Bhai</option>
     </select>
